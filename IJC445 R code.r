@@ -1,6 +1,6 @@
 #Step 1 download the dataset from GitHub to your laptop 
 
-#Step 2 --> make sure to set you workinng directory
+# --> make sure to set you workinng directory
 #setwd("~/Desktop/Assignment/Cleaned CSV Files")
 
 #Step 2 import the dataset into RStudio
