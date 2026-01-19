@@ -44,7 +44,7 @@ library(ggplot2)
 subset_data_heat <- dataset_songs %>%
   filter(year >= 2008 & year <= 2018)
 
-#4.2: Now need to filter so only the Top 10 genres JUST for those years (2008-2018)
+#4.2: Now need to filter so only the Top 5 genres JUST for those years (2008-2018)
 top_5_genres_era <- subset_data_heat%>%
   count(main_genre, sort = TRUE) %>%
   top_n(5, n) %>%
