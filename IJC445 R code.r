@@ -112,8 +112,7 @@ ggplot(dataset_songs, aes(x = explicit_transformed, y = popularity.y, fill = exp
        fill = "Is Explicit?")
 #END OF graph 3: Visualisation Choice
 
-#Step 6: Creating a scatterplot for followers and artist popularity
-
+#Step 6: Creating a scatterplot for exploring relationship between followers and artist popularity
 library(ggplot2)
 library(scales)
 library(dplyr)
@@ -138,4 +137,4 @@ ggplot(scatter_data, aes(x = followers, y = popularity.y)) +
     x = "Number of Followers (Log Scale)", 
     y = "Artist Popularity Score"
   )
-
+#end of graph 4: Ethical considerations and Future Improvements and final graph 
