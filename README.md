@@ -17,7 +17,7 @@ Artist popularity is often defined by an artist's success across different demen
 ### What graphs were used 
 - ***Line graph***: To explore average popualirty score of artist types between 2000-2018
     - library(tidyverse)
-    - library (ggplot2)
+    - library(ggplot2)
     - library(dplyr)
 - ***Heatmap***: To explore avaerage populairty score of Top 5 Genres between 2008-2018
     - library(dplyr)
@@ -31,8 +31,8 @@ Artist popularity is often defined by an artist's success across different demen
     - library(scales)
     - library(ggplot2)
 ## Respository Structure
--**dataset_songs.csv**: Cleaned and Merged dataset
--**IJC445 R code.r**: The R code you should download and run following steps
+- **dataset_songs.csv**: Cleaned and Merged dataset
+- **IJC445 R code.r**: The R code you should download and run following steps
   
 ## How to Run Code
 1. Download the **dataset_songs.csv** document to your laptop
