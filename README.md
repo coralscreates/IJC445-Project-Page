@@ -10,7 +10,7 @@ Artist popularity is often defined by an artist's success across different demen
 - Artist Popularity Score
 
 **Independent Variables**
-  - Artist types
+  - Artist type
   - Top 5 Genres
   - Explicitness of songs
   - Spotify Follower Count
